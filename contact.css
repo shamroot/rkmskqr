@@ -1,0 +1,46 @@
+
+
+/* Contact Form Start */
+.form-label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-label::after{
+    content: '*';
+    color: red;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.form-control{
+    padding-left: 35px;
+}
+.form-control::placeholder{
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.input-icon{
+    position: relative;
+}
+
+.input-icon .bi{
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    font-size: 20px;
+}
+/* Contact Form End */
+
+Address{
+    padding: 12px 15px;
+    transition: all ease 0.5s;
+
+}
+Address:hover{
+    background-color: #BB2F30;
+    color: white;
+}
+
+hr{
+    border-top: 3px dotted black;
+}

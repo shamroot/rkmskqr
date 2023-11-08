@@ -1,0 +1,47 @@
+.side-box {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background-color: #D8D1BF;
+    width: 100%;
+}
+
+.side-box h5 {
+    color: brown;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.side-box a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.side-box a:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.side-box a:hover {
+    color: brown;
+}
+
+.side-box a:hover .bi {
+    color: black;
+}
+
+.side-box a>.bi {
+    font-size: 14px;
+}
+
+#News {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background-color: #D8D1BF;
+    width: 100%;
+
+}
